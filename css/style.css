@@ -681,6 +681,9 @@ input:hover{
         margin: 40px;
         padding: 5px;
     }
+    .about-content p{
+									margin: 0
+}  
     .image{
         width: 100%;
     }
@@ -741,10 +744,13 @@ input:hover{
     }
    
     .about-content{
-        margin: 28px;
+        margin: 20px;
         padding: 10px;
         float: none;
     }
+   .about-content p{
+									margin: 0
+} 
     .heading{
         font-size: 2.2rem;
     }
