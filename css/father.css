@@ -1,0 +1,219 @@
+.post-header{
+    width: 100%;
+    height: 300px;
+    padding-top: 25px;
+    background: #6a6b74;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-title{
+    width: 100%;
+    font-size: 4.3rem;
+    color: #efefef;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sub-heading{
+    width: 90%;
+    font-size: 2.5rem;
+    color: #efefef;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+@media(max-width:360px){
+    .container{
+        max-width: 360px;
+        height: auto;
+    }
+    .nav-wrapper button{
+        width: 100px;
+        padding: 10px 20px;
+    }
+    .post-content p{
+        letter-spacing: normal;
+    }
+    .post-content{
+        margin: 5px;
+        padding: 10px;
+        font-size: 0.7rem;
+       }
+       .first{
+        padding: 10px;
+       }
+       .second-content{
+            padding: 10px 10px 10px 20px;
+       }
+       .second-content p{
+        letter-spacing: normal;
+    }
+    #name, #new-comment{
+        width: 180px;
+    }
+    #time{
+        width: 220px;
+    }
+    .comments{
+        justify-content: center;
+    }
+    .comment-form {
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-direction: column;
+    }
+    .comment-section{
+        width: 90%;
+    }
+    .comment-form button {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .article-title{
+        font-size: 2.5rem;
+    }
+    .sub-heading{
+        font-size: 1.4rem;
+    }
+    .social{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:475px) {
+    .container{
+        max-width: 475px;
+       }
+       .nav-wrapper button{
+        width: 100px;
+        padding: 10px 20px;
+    }
+    .post-content p{
+        letter-spacing: normal;
+    }
+       .post-content{
+        margin: 10px;
+        padding: 15px;
+        font-size: 0.7rem;
+       }
+       .first{
+        padding: 10px;
+       }
+       .second-content{
+            padding: 10px 10px 10px 20px;
+       }
+       .second-content p{
+        letter-spacing: normal;
+    }
+    #name, #new-comment{
+        width: 220px;
+    }
+       #time{
+        width: 270px;
+        float: none;
+    }
+    .comments{
+        justify-content: center;
+    }
+    .comment-form {
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-direction: column;
+    }
+    .comment-section{
+        width: 90%;
+    }
+    .comment-form input{
+       margin: 5px;
+       padding: 2px;
+    }
+    .comment-form button{
+        margin: 60px 0;
+    }
+    .comment-form button {
+        margin-left: -10px;
+        margin-top: 55px;
+    }
+    .article-title{
+        font-size: 2.9rem;
+    }
+    .sub-heading{
+        font-size: 1.7rem;
+    }
+    .social{
+        margin-top: 90px;
+    }
+    }
+
+@media (max-width:640px) {
+    .container{
+        max-width: 640px;
+       }
+       .nav-wrapper button{
+        width: 100px;
+        padding: 10px 20px;
+    }
+    .post-content p{
+        letter-spacing: normal;
+    }
+       .post-content{
+        font-size: 0.8rem;
+       }
+       .footer{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #time{
+        width: 240px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .comment-section{
+        width: 90%;
+    }
+    .comment-form input{
+        margin: 5px;
+        padding: 2px;
+     }
+     .comment-form button {
+        margin-left: -30px;
+        margin-top: 50px;
+    }
+    .article-title{
+        font-size: 3rem;
+    }
+    .sub-heading{
+        font-size: 1.9rem;
+    }
+    .social{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 768px;
+       }
+}
+
+@media screen and(max-width:1024px) {
+    .container{
+        max-width: 1024px;
+       }
+}
+
+@media screen and(max-width:1280px) {
+    .container{
+        max-width: 1280px;
+       }
+}
+
+@media screen and(max-width:1536px) {
+    .container{
+        max-width: 1536px;
+       }
+}
